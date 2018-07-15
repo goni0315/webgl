@@ -69,7 +69,7 @@ var Module = {
 		
 		// Canvas id, Width, height 설정
 		canvas.id = "canvas";
-		canvas.width="calc(100%)";
+		canvas.width="calc(80%)";
 		canvas.height="100%";
 		
 		// Canvas 스타일 설정
