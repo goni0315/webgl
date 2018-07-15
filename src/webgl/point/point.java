@@ -38,10 +38,10 @@ public class point {
 		 
 		 
 		 Gson gson = new Gson();
-		 Object toJsonObject = gson.toJson(fileString);
+		 JsonObject toJsonObject = gson.toJson(fileString);
 		
 		JsonParser jsonParser = new JsonParser();
-		JsonObject object = (JsonObject) jsonParser.parse((String) toJsonObject);
+		JsonObject object = (JsonObject) jsonParser.parse(toJsonObject);
 		System.out.println(object.get("type"));
 		
 		
