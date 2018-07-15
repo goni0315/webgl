@@ -38,7 +38,7 @@ public class point {
 		 
 		 
 		 Gson gson = new Gson();
-		 JsonObject toJsonObject = gson.toJson(fileString);
+		 String toJsonObject = gson.toJson(fileString);
 		
 		JsonParser jsonParser = new JsonParser();
 		JsonObject object = (JsonObject) jsonParser.parse(toJsonObject);
